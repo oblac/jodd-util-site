@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Jodd Util](README.md)
+* [Wildcard](wildcard.md)
+* [InExRules](inexrules.md)
 
 ## BeanUtil
 
