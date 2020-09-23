@@ -1,8 +1,13 @@
 # Table of contents
 
 * [Jodd Util](README.md)
-* [Wildcard](wildcard.md)
-* [InExRules](inexrules.md)
+* [Installation](installation.md)
+* [Contact](contact.md)
+
+## Utilitites
+
+* [InExRules](utilitites/inexrules.md)
+* [Wildcard](utilitites/wildcard.md)
 
 ## BeanUtil
 
