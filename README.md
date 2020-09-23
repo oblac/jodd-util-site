@@ -1,8 +1,14 @@
+---
+description: Curated set of free Java utilities.
+---
+
 # Jodd Util
 
-Various Java utilities. Zero dependencies. Mostly static functions.
+Various Java utilities. Zero dependencies.
 
-Only few are listed here. Check JavaDoc for all.
+{% hint style="info" %}
+Only a few utitlities are listed here. Please check [JavaDoc](https://javadoc.io/doc/org.jodd/jodd-util) for all.
+{% endhint %}
 
 ### License
 
