@@ -1,6 +1,6 @@
 # Wildcard
 
-Matching strings to wildcards pattern is useful and often needed. Using regular expression may help, but is not top performance solution. `Wildcard` class matches strings to wildcard patterns using `*` and `?` characters, and that does very fast and good!
+Matching strings to wildcards pattern is useful and often needed. Using regular expression may help, but is not a top performance solution. `Wildcard` class matches strings to wildcard patterns using `*` and `?` characters, and that does very fast and good!
 
 ### Matching strings
 
@@ -16,7 +16,7 @@ Wildcard.match("CfgOptions.class", "C*ti*c?a?*");       // true
 
 ### Matching file paths
 
-`Wildcard` class supports path matching wildcards. It matches path against pattern using `*`, `?` and `**` wildcards. Both path and the pattern are tokenized on path separators \(`\` and `/`\). \'`**`\' represents deep tree wildcard, as in Ant.
+`Wildcard` class supports path matching wildcards. It matches path against pattern using `*`, `?` and `**` wildcards. Both path and the pattern are tokenized on path separators \(`\` and `/`\). `**` represents deep tree wildcard, as in Ant.
 
 ```java
 Wildcard.matchPath("/foo/soo/doo/boo", "/**/bo*");          // true
@@ -25,5 +25,5 @@ Wildcard.matchPath("/foo/one/two/three/boo", "**/t?o/**");  // true
 
 ### Wildcards in Jodd
 
-Wildcard matching is used on many places in _Jodd_. As the general rule-of-the-thumb, everywhere where file paths are involved in scanning and matching, the `matchPath()` method is used, otherwise, the classic `path()`.
+Wildcard matching is used in many places in _Jodd_. As the general rule-of-the-thumb, everywhere where file paths are involved in scanning and matching, the `matchPath()` method is used, otherwise, the classic `path()`.
 

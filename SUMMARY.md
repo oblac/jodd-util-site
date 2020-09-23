@@ -6,6 +6,7 @@
 
 ## Utilitites
 
+* [StringUtil](utilitites/stringutil.md)
 * [InExRules](utilitites/inexrules.md)
 * [Wildcard](utilitites/wildcard.md)
 
