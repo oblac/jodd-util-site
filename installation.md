@@ -54,7 +54,7 @@ That is all!
 
 ### Snapshots
 
-**Jodd Util** snapshots are published on [Maven Central Snapshot repo](https://oss.sonatype.org/content/repositories/snapshots/org/jodd/jodd-lagarto/).
+**Jodd Util** snapshots are published on [Maven Central Snapshot repo](https://oss.sonatype.org/content/repositories/snapshots/org/jodd/jodd-util/).
 
 {% hint style="warning" %}
 Snapshots are released manually. Feel free to contact me if you need a new SNAPSHOT release sooner.
