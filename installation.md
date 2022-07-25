@@ -14,14 +14,14 @@
 {% endtab %}
 
 {% tab title="Gradle" %}
-```text
-implementation 'org.jodd:jodd-util.x.x'
+```
+implementation 'org.jodd:jodd-util:x.x.x'
 ```
 {% endtab %}
 
 {% tab title="Gradl.kt" %}
 ```kotlin
-implementation("org.jodd:jodd-util.x.x")
+implementation("org.jodd:jodd-util:x.x.x")
 ```
 {% endtab %}
 
@@ -59,4 +59,3 @@ That is all!
 {% hint style="warning" %}
 Snapshots are released manually. Feel free to contact me if you need a new SNAPSHOT release sooner.
 {% endhint %}
-
